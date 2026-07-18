@@ -1,57 +1,73 @@
-# 🛍️ ShopEase — Full-Stack E-Commerce Platform
+<div align="center">
 
-A complete, production-style e-commerce web application built from scratch — featuring user authentication, product management, cart & checkout flow, order tracking, and a full admin dashboard.
+# 🛍️ ShopEase
 
-![Status](https://img.shields.io/badge/status-active-success)
-![Node](https://img.shields.io/badge/Node.js-Express-green)
-![React](https://img.shields.io/badge/React-Vite-blue)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+### A Modern Full-Stack E-Commerce Platform
 
----
+*Browse. Add to Cart. Checkout. Repeat.*
 
-## ✨ Features
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### 🛒 Customer Experience
-- User registration & login with JWT authentication
-- Browse products with category filtering
-- Product detail pages with image galleries
-- Add to cart, update quantities, remove items
-- Secure checkout flow with shipping address
-- Cash on Delivery & Razorpay payment integration
-- Order history and order status tracking
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-### 🔐 Admin Dashboard
-- Role-based access control (Admin vs User)
-- Add, edit, and delete products
-- Upload product images directly to Cloudinary
-- View and manage all customer orders
-- Update order status (Processing → Shipped → Delivered)
-
-### ⚙️ Under the Hood
-- RESTful API architecture
-- Password hashing with bcrypt
-- Image storage via Cloudinary
-- Persistent cart tied to user accounts
-- Payment signature verification (Razorpay)
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🌟 Overview
 
-**Frontend**
-- React (Vite)
-- Tailwind CSS
-- React Router
-- Axios
-- React Hot Toast
-
-**Backend**
-- Node.js + Express
-- MongoDB + Mongoose
-- JWT for authentication
-- Multer + Cloudinary for image uploads
-- Razorpay for payments
+**ShopEase** is a complete, production-style e-commerce web application built from the ground up — covering everything from user authentication and product browsing to cart management, secure checkout, and a fully functional admin panel. Built to demonstrate real-world full-stack architecture, not just CRUD.
 
 ---
 
-## 📁 Project Structure
+## ✨ Highlights
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 For Shoppers
+- 🔐 Secure JWT-based authentication
+- 🏷️ Browse & filter products by category
+- 🖼️ Rich product detail pages
+- 🛍️ Persistent shopping cart
+- 📍 Checkout with shipping details
+- 💳 Cash on Delivery + Razorpay payments
+- 📦 Order history & live status tracking
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ For Admins
+- 📊 Centralized admin dashboard
+- ➕ Add / edit / delete products
+- ☁️ Direct image uploads to Cloudinary
+- 📋 View & manage all customer orders
+- 🚚 Update order status in real time
+- 🔒 Role-based access control
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| **Frontend** | React (Vite) · Tailwind CSS · React Router · Axios · React Hot Toast |
+| **Backend** | Node.js · Express.js · JWT · Bcrypt |
+| **Database** | MongoDB Atlas + Mongoose |
+| **Storage** | Cloudinary (image hosting) |
+| **Payments** | Razorpay |
+
+---
+
+## 🏗️ Architecture
