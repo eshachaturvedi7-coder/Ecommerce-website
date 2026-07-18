@@ -1,10 +1,14 @@
 <div align="center">
 
-# 🛍️ ShopEase
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ShopEase&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Browse.%20Add%20to%20Cart.%20Checkout.%20Repeat.&descAlignY=55&descSize=18" />
 
-### A Modern Full-Stack E-Commerce Platform
+<br/>
 
-*Browse. Add to Cart. Checkout. Repeat.*
+<a href="https://github.com/eshachaturvedi7-coder/Ecommerce-website">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Full-Stack+MERN+E-Commerce+Platform;JWT+Auth+%2B+Cart+%2B+Checkout;Admin+Dashboard+with+Live+Order+Tracking;Built+by+Esha+Chaturvedi+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
+
+<br/><br/>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -16,6 +20,12 @@
 ![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
+<br/>
+
+![Stars](https://img.shields.io/github/stars/eshachaturvedi7-coder/Ecommerce-website?style=for-the-badge&color=FFD700&logo=github)
+![Last Commit](https://img.shields.io/github/last-commit/eshachaturvedi7-coder/Ecommerce-website?style=for-the-badge&color=6366F1)
+![License](https://img.shields.io/badge/license-MIT-blueviolet?style=for-the-badge)
+
 </div>
 
 ---
@@ -23,6 +33,14 @@
 ## 🌟 Overview
 
 **ShopEase** is a complete, production-style e-commerce web application built from the ground up — covering everything from user authentication and product browsing to cart management, secure checkout, and a fully functional admin panel. Built to demonstrate real-world full-stack architecture, not just CRUD.
+
+---
+
+## 🧠 Built With
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,nodejs,express,mongodb,js&perline=7" />
+</div>
 
 ---
 
