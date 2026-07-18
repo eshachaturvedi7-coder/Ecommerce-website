@@ -14,47 +14,47 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white sticky top-0 z-50 border-b border-gray-100">
+    <nav className="bg-ink sticky top-0 z-50 border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="flex items-center gap-2 text-xl font-bold text-gray-900">
-            <span className="bg-gray-900 text-white w-9 h-9 rounded-full flex items-center justify-center text-sm">SE</span>
+          <Link to="/" className="flex items-center gap-2 text-xl font-display font-bold text-cream">
+            <span className="bg-accent text-ink w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold">SE</span>
             ShopEase
           </Link>
 
-          <div className="hidden md:flex items-center gap-1 bg-gray-50 rounded-full px-4 py-2 w-80 border border-gray-100">
-            <Search size={16} className="text-gray-400" />
-            <span className="text-sm text-gray-400">Search products...</span>
+          <div className="hidden md:flex items-center gap-1 bg-surface rounded-full px-4 py-2 w-80 border border-white/5">
+            <Search size={16} className="text-muted" />
+            <span className="text-sm text-muted">Search products...</span>
           </div>
 
           <div className="hidden md:flex space-x-8">
-            <Link to="/" className="text-gray-600 hover:text-gray-900 font-medium text-sm transition-colors">
+            <Link to="/" className="text-muted hover:text-accent font-medium text-sm transition-colors">
               Home
             </Link>
-            <Link to="/products" className="text-gray-600 hover:text-gray-900 font-medium text-sm transition-colors">
+            <Link to="/products" className="text-muted hover:text-accent font-medium text-sm transition-colors">
               Products
             </Link>
           </div>
 
           <div className="flex items-center space-x-5">
-            <Link to="/cart" className="text-gray-700 hover:text-gray-900 transition-colors">
+            <Link to="/cart" className="text-cream hover:text-accent transition-colors">
               <ShoppingCart size={22} strokeWidth={1.8} />
             </Link>
 
             {user ? (
               <div className="flex items-center space-x-4">
                 {user.role === 'admin' && (
-                  <Link to="/admin" className="text-xs font-bold text-white bg-gray-900 px-3 py-1.5 rounded-full">
+                  <Link to="/admin" className="text-xs font-bold text-ink bg-accent px-3 py-1.5 rounded-full">
                     ADMIN
                   </Link>
                 )}
-                <Link to="/orders" className="text-gray-700 hover:text-gray-900 flex items-center gap-1 transition-colors">
+                <Link to="/orders" className="text-cream hover:text-accent flex items-center gap-1 transition-colors">
                   <User size={20} strokeWidth={1.8} />
                   <span className="hidden sm:inline text-sm font-medium">{user.name}</span>
                 </Link>
                 <button
                   onClick={handleLogout}
-                  className="text-gray-400 hover:text-red-500 transition-colors"
+                  className="text-muted hover:text-red-400 transition-colors"
                   title="Logout"
                 >
                   <LogOut size={20} strokeWidth={1.8} />
@@ -63,7 +63,7 @@ const Navbar = () => {
             ) : (
               <Link
                 to="/login"
-                className="bg-gray-900 text-white px-6 py-2.5 rounded-full hover:bg-gray-800 text-sm font-semibold transition-colors"
+                className="bg-accent text-ink px-6 py-2.5 rounded-full hover:brightness-110 text-sm font-bold transition-all"
               >
                 Login
               </Link>
